@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private val REQUEST_CHECK_SETTINGS = 2
     private var isFetchingCurrentLocationWeather = true
 
-    private val binding: ActivityMainBinding by lazy {
+        private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
 
